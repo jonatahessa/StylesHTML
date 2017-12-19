@@ -1,18 +1,19 @@
-#barra-menu {
-  margin: auto;
-  display: block;
-  list-style: none;
+@media (max-width: 615px) {
+  #barra-menu button {
+    display: inline;
+    border: none;
+    height: 45px;
+    width: 100%;
+  }
 }
 
-#barra-menu li {
-  display: inline-block;
-  width: 18%;
-}
-
-#barra-menu button {
-  border: none;
-  height: 45px;
-  width: 100%;
+@media (min-width: 616px) {
+  #barra-menu button {
+    display: inline;
+    border: none;
+    height: 45px;
+    width: 19%;
+  }
 }
 
 .selected {
