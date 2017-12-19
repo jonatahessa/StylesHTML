@@ -1,24 +1,18 @@
-html, body {
-  padding: 0;
-  margin: 0;
-  height: 100%;
-}
-
-#sessao-principal {
-  padding: 0;
-}
-
 #barra-menu {
   margin: auto;
-  float: none;
+  display: block;
+  list-style: none;
+}
+
+#barra-menu li {
+  display: inline-block;
+  width: 18%;
 }
 
 #barra-menu button {
-  width: 19%;
-  display: inline-block;
   border: none;
   height: 45px;
-  margin: 0;
+  width: 100%;
 }
 
 .selected {
@@ -41,10 +35,15 @@ html, body {
   color: white;
 }
 
-#carousel img {
+.img-carousel {
   width: 100%;
 }
 
-.img-carousel {
-  width: 100%;
+#titulo {
+  padding-top: 3%;
+}
+
+.div-texto-central {
+  margin: auto;
+  float: none;
 }
